@@ -3,13 +3,13 @@
 def calculate(arg):
     stack = []
 
-    i = 0
-    if i:
-        i -= 1
-        i *= 2
-        print("hello")
-    else:
-        i += 1
+#    i = 0
+#    if i:
+#        i -= 1
+#        i *= 2
+#        print("hello")
+#    else:
+#        i += 1
 
     tokens = arg.split()
 
