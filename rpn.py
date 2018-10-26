@@ -3,11 +3,11 @@
 def calculate(arg):
     stack = []
 
-    i = 0
-    if i:
-        i -= 1
-    else:
-        i += 1
+#    i = 0
+#    if i:
+#        i -= 1
+#    else:
+#        i += 1
 
     tokens = arg.split()
 
