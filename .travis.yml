@@ -5,5 +5,3 @@ install:
         - pip install coverage
 script:
         - python3 -m unittest
-        - coverage run test_run.py
-        - coverage report -m
