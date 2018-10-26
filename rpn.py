@@ -13,6 +13,8 @@ def calculate(arg):
             val1 = stack.pop()
             if token == '+':
                 result = val1 + val2
+            elif token == '^':
+                result = val1 ** val2
             else:
                 result = val1 - val2
 
