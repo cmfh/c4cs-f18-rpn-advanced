@@ -3,6 +3,9 @@
 def calculate(arg):
     stack = []
 
+    if True:
+        pass
+
     tokens = arg.split()
 
     for token in tokens:
