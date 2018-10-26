@@ -16,3 +16,6 @@ class TestBasics(unittest.TestCase):
     def test_exponential(self):
         result = rpn.calculate('2 3 ^')
         self.assertEqual(8, result)
+
+if __name__ == '__main__':
+    unittest.main()
